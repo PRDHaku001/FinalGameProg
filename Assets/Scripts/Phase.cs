@@ -9,6 +9,7 @@ public class Phase : MonoBehaviour
     public GameObject AttackBar;
     public Menu menu;
     public trigger trigger;
+    public PlayerAttack playerattack;
     void Update()
     {
 
@@ -36,14 +37,9 @@ public class Phase : MonoBehaviour
             menu.phase = 1;
             attacktrigger.phase = 1;
             menu.skill = 0;
-            
-        }
-
-        if(Input.GetButtonDown("Fire3") && attacktrigger.phase == -1)
-        {
-            attacktrigger.phase = 1;
-            trigger.jumpnumber = 3;
-            AttackBar.SetActive(true);
+            playerattack.numberofAttack = 1;
+            menu.Nactionmenu = 1;
+            menu.Nattack = 1;
         }
     }
 }

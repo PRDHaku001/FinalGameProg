@@ -16,13 +16,13 @@ public class PlayerAttack : MonoBehaviour
             {
                 player.HP -= 5;
                 numberofAttack -= 1;
-                Debug.Log(numberofAttack);
+                Debug.Log(player.HP);
             }
             else if(trigger.Attack == true)
             {
                 player.HP -= 3;
                 numberofAttack -=1;
-                Debug.Log(numberofAttack);
+                Debug.Log(player.HP);
             }
         }
     }

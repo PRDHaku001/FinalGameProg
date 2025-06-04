@@ -28,7 +28,6 @@ public class trigger : MonoBehaviour
                 arah = 2;
             }
             jumpnumber =jumpnumber -1f;
-            Debug.Log(jumpnumber);
         }
 
         if (collision.gameObject.name == "kanan")
@@ -42,7 +41,6 @@ public class trigger : MonoBehaviour
                 arah = 1;
             }
             jumpnumber = jumpnumber -1f;
-            Debug.Log(jumpnumber);
         }
     }
     private void Update()

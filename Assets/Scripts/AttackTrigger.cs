@@ -75,7 +75,7 @@ public class AttackTrigger : MonoBehaviour
     {
         //changesize
         //AttackBar.transform.localScale = new Vector2(testnumber, 1);
-        if(trigger.jumpnumber == 0 || PlayerAttack.numberofAttack == 0)
+        if(trigger.jumpnumber == 0)
         {
             phase = -1;
         }

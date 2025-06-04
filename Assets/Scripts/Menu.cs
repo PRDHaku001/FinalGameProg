@@ -28,7 +28,7 @@ public class Menu : MonoBehaviour
     public GameObject DescSkill2;
     public GameObject BackBag;public int Nbackbag = 0;
     public GameObject Shadowbackbag;
-
+    public PlayerAttack playerattack;
     public int phase = 1;
     public int skill = 0;
     // Update is called once per frame
@@ -260,8 +260,8 @@ public class Menu : MonoBehaviour
                     skill = 1;
                     Nattackmenu = 0;
                     Nskill1 = 0;
-                    Nactionmenu = 1;
-                    Nattack = 1;
+                    ShadowSkill1.SetActive(false);
+                    playerattack.numberofAttack = 1;
                 }
                 else if(Nskill2 == 1)
                 {
@@ -269,8 +269,9 @@ public class Menu : MonoBehaviour
                     skill = 2;
                     Nattackmenu = 0;
                     Nskill2 = 0;
-                    Nactionmenu = 1;
-                    Nattack = 1;
+                    ShadowSkill1.SetActive(false);
+                    playerattack.numberofAttack = 3;
+
                 }
                 else if(Nbackattack == 1)
                 {

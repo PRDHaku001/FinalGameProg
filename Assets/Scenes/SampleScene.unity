@@ -1021,6 +1021,7 @@ MonoBehaviour:
   BackBag: {fileID: 862717964}
   Nbackbag: 0
   Shadowbackbag: {fileID: 767649092}
+  playerattack: {fileID: 850351406}
   phase: 1
   skill: 0
 --- !u!1 &481187389
@@ -1216,6 +1217,7 @@ MonoBehaviour:
   AttackBar: {fileID: 1546434190}
   menu: {fileID: 442520850}
   trigger: {fileID: 1869064661}
+  playerattack: {fileID: 850351406}
 --- !u!1 &629057499
 GameObject:
   m_ObjectHideFlags: 0
@@ -1982,7 +1984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 850351407}
   trigger: {fileID: 1869064659}
-  numberofAttack: 1
+  numberofAttack: 0
 --- !u!114 &850351407
 MonoBehaviour:
   m_ObjectHideFlags: 0
