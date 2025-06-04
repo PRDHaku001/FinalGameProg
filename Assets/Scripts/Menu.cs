@@ -28,9 +28,17 @@ public class Menu : MonoBehaviour
     public GameObject DescSkill2;
     public GameObject BackBag;public int Nbackbag = 0;
     public GameObject Shadowbackbag;
+    public GameObject spawn1;
+    public GameObject spawn2;
+    public GameObject Triggernya;
+
+
     public PlayerAttack playerattack;
+    public trigger trigger;
+    
     public int phase = 1;
     public int skill = 0;
+    public int radnumber;
     // Update is called once per frame
     private void Start()
     {
@@ -254,7 +262,9 @@ public class Menu : MonoBehaviour
             }
             else if(Nattackmenu == 1)
             {
-                if(Nskill1 == 1)
+                radnumber = Random.Range(1, 3);
+
+                if (Nskill1 == 1)
                 {
                     phase = -1;
                     skill = 1;
@@ -262,6 +272,17 @@ public class Menu : MonoBehaviour
                     Nskill1 = 0;
                     ShadowSkill1.SetActive(false);
                     playerattack.numberofAttack = 1;
+                    trigger.jumpnumber = 1;
+                    if (radnumber == 1)
+                    {
+                        trigger.arah = 2;
+                        Triggernya.transform.position = spawn1.transform.position;
+                    }
+                    else
+                    {
+                        trigger.arah = 1;
+                        Triggernya.transform.position = spawn2.transform.position;
+                    }
                 }
                 else if(Nskill2 == 1)
                 {
@@ -269,8 +290,19 @@ public class Menu : MonoBehaviour
                     skill = 2;
                     Nattackmenu = 0;
                     Nskill2 = 0;
-                    ShadowSkill1.SetActive(false);
+                    ShadowSkill2.SetActive(false);
                     playerattack.numberofAttack = 3;
+                    trigger.jumpnumber = 3;
+                    if (radnumber == 1)
+                    {
+                        trigger.arah = 2;
+                        Triggernya.transform.position = spawn1.transform.position;
+                    }
+                    else
+                    {
+                        trigger.arah = 1;
+                        Triggernya.transform.position = spawn2.transform.position;
+                    }
 
                 }
                 else if(Nbackattack == 1)

@@ -10,6 +10,7 @@ public class Phase : MonoBehaviour
     public Menu menu;
     public trigger trigger;
     public PlayerAttack playerattack;
+
     void Update()
     {
 
@@ -20,14 +21,14 @@ public class Phase : MonoBehaviour
             if (menu.skill == 1)
             {
                 AttackBar.SetActive(true);
-                attacktrigger.AttackBar.transform.localScale = new Vector2(5, 1);
+                attacktrigger.AttackBar.transform.localScale = new Vector2(2, 1);
                 attacktrigger.CriticalBar.transform.localScale = new Vector2(0, 0);
             }
             else if(menu.skill == 2)
             {
                 AttackBar.SetActive(true);
-                attacktrigger.AttackBar.transform.localScale = new Vector2(7, 1);
-                attacktrigger.CriticalBar.transform.localScale = new Vector2(2, 1);
+                attacktrigger.AttackBar.transform.localScale = new Vector2(3, 1);
+                attacktrigger.CriticalBar.transform.localScale = new Vector2(0.5f, 1);
             }
         }
         if(attacktrigger.phase == -1)

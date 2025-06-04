@@ -10,7 +10,6 @@ public class AttackTrigger : MonoBehaviour
     public bool Critical;
     public bool Attack;
     public trigger trigger;
-    public Player player;
     public PlayerAttack PlayerAttack;
     public GameObject AttackBar;
     public GameObject CriticalBar;
