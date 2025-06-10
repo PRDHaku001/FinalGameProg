@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: 644a4486a831e454399143ecc43423a2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 496
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2458bbed07cca64459aef8e01159b7d8
+      internalID: -925714214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 496
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca941a0a5754e046ad435b8374f3c9e
+      internalID: 1349517198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 496
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678f085291a359e45bf667cd11127187
+      internalID: 732568615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 496
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1603155bf1993f54ab736813deb4c0cf
+      internalID: 2026429021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 496
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1a5d51bc131ca47928d1b4ed6fa1b6
+      internalID: 573427667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 497
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fc479dd42290544b6517a55cb70f36
+      internalID: 358580414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 496
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350a727b199337f459096cbc9df8bb80
+      internalID: -593891738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 400
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444ec976a4aaacc46bf0b82b3a9321fb
+      internalID: 1999465203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 401
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08013e71d8c12a3418a1509799934f44
+      internalID: -2140104431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 400
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e02464e9cf38204582b330ab7227088
+      internalID: -1247438164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 400
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ee9c8a282830941a352854bb1edb74
+      internalID: 752147507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 400
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3f9d03e2bd7ed4fae1ea2d664d6729
+      internalID: -16973110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 400
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321b739ad7809754d8de5451a3503736
+      internalID: 381907145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 400
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7693f7a6a30a914f8b18314e858a3f0
+      internalID: -61789502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 304
+        width: 83
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6d99423cfbea14d8f3b0cec74f17f2
+      internalID: -904842942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 304
+        width: 83
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101668721531c294aaf9771819dc84fe
+      internalID: -734559905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 345
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc47f38fb3ae7c49918868ec429081a
+      internalID: -1203229984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 304
+        width: 69
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06380fcda9418e44f87c0e02f73db14b
+      internalID: -1086737562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 304
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cc8f5bb09d8344b9cb9d337d079c6f
+      internalID: 283299884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 304
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fbc6460467251459208a213996faa0
+      internalID: -891133256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 304
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4124164431630db4794d3030bb47ba29
+      internalID: -1061137481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 304
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecae898472501af41bd1be906b4e3a10
+      internalID: 910410890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 208
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4a5054b22aa9b45982b6e56cd74d4c
+      internalID: 1377063264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 208
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d911348d7a17c3749b787d9f3cd7aa47
+      internalID: -536356688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 208
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7061fd2b58e6e4c82016633c234855
+      internalID: 1264255773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 208
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09eefcbd596a4694ea1636a6d9cf3c5b
+      internalID: -1466089090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 208
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896207b89bdb27b47a0068a66b37271b
+      internalID: 960274836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 208
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce51f0afed5f0594b88d3856cb15b40e
+      internalID: -437912767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 208
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451b6bf31924cbf41b9b8886ed4649c8
+      internalID: -2141124162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 112
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1218506ed0d31014eb13a2710f9f76c2
+      internalID: 1471960182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 113
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fad7505b42207647aa5aceecda37422
+      internalID: -1610498841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 131
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac99daceb76a55d438464c8efad1438b
+      internalID: 1137644801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 112
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9965b2abed5c1e447b75c3de6a3ce88d
+      internalID: -1146656914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 124
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57823d06fea6522418cb90e3b5fe0cbf
+      internalID: -746581504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 111
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d4d1f7f6f118a4e943105ce7f99bd3
+      internalID: 1922388140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 115
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5c674e0c92b604a9971e8a3b0dc120
+      internalID: 1959981109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56de7a54712465549a2569396e91281e
+      internalID: 1303862477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 110
+        width: 58
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f903ced04d4d8a34a9b586665cd4bbe1
+      internalID: -374259000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 112
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b00ca8695b6f684f8d6cd4179742619
+      internalID: -1599628465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 110
+        width: 58
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a077f1fc593fa164db61a56a3d433330
+      internalID: -660534067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 112
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38aba47b2bb83146a05abcc0be46912
+      internalID: -1967885709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 110
+        width: 58
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10f37603d1cab141973e1a0d67a3595
+      internalID: -1442433235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 112
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca893dc2d37f914495cefd8cad82e96
+      internalID: -1252534370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 113
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4777b633b981342478d147b67ad08340
+      internalID: 2037259075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 113
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbd523d24889f74b9bc814b43d57a21
+      internalID: -1823471127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 14
+        width: 58
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd5e1984962d544b9b160416e3b494c
+      internalID: 648892725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 16
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9540beb090c16f74c9f50669f939e929
+      internalID: -823532385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin dagger-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 16
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431d3e787df4d114b9b577fb938a69e1
+      internalID: -797167771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Goblin dagger-Sheet_0: -925714214
+      Goblin dagger-Sheet_1: 1349517198
+      Goblin dagger-Sheet_10: 752147507
+      Goblin dagger-Sheet_11: -16973110
+      Goblin dagger-Sheet_12: 381907145
+      Goblin dagger-Sheet_13: -61789502
+      Goblin dagger-Sheet_14: -904842942
+      Goblin dagger-Sheet_15: -734559905
+      Goblin dagger-Sheet_16: -1203229984
+      Goblin dagger-Sheet_17: -1086737562
+      Goblin dagger-Sheet_18: 283299884
+      Goblin dagger-Sheet_19: -891133256
+      Goblin dagger-Sheet_2: 732568615
+      Goblin dagger-Sheet_20: -1061137481
+      Goblin dagger-Sheet_21: 910410890
+      Goblin dagger-Sheet_22: 1377063264
+      Goblin dagger-Sheet_23: -536356688
+      Goblin dagger-Sheet_24: 1264255773
+      Goblin dagger-Sheet_25: -1466089090
+      Goblin dagger-Sheet_26: 960274836
+      Goblin dagger-Sheet_27: -437912767
+      Goblin dagger-Sheet_28: -2141124162
+      Goblin dagger-Sheet_29: 1471960182
+      Goblin dagger-Sheet_3: 2026429021
+      Goblin dagger-Sheet_30: -1610498841
+      Goblin dagger-Sheet_31: 1137644801
+      Goblin dagger-Sheet_32: -1146656914
+      Goblin dagger-Sheet_33: -746581504
+      Goblin dagger-Sheet_34: 1922388140
+      Goblin dagger-Sheet_35: 1959981109
+      Goblin dagger-Sheet_36: 1303862477
+      Goblin dagger-Sheet_37: -374259000
+      Goblin dagger-Sheet_38: -1599628465
+      Goblin dagger-Sheet_39: -660534067
+      Goblin dagger-Sheet_4: 573427667
+      Goblin dagger-Sheet_40: -1967885709
+      Goblin dagger-Sheet_41: -1442433235
+      Goblin dagger-Sheet_42: -1252534370
+      Goblin dagger-Sheet_43: 2037259075
+      Goblin dagger-Sheet_44: -1823471127
+      Goblin dagger-Sheet_45: 648892725
+      Goblin dagger-Sheet_46: -823532385
+      Goblin dagger-Sheet_47: -797167771
+      Goblin dagger-Sheet_5: 358580414
+      Goblin dagger-Sheet_6: -593891738
+      Goblin dagger-Sheet_7: 1999465203
+      Goblin dagger-Sheet_8: -2140104431
+      Goblin dagger-Sheet_9: -1247438164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

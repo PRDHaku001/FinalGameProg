@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
@@ -35,6 +36,7 @@ public class Menu : MonoBehaviour
 
     public PlayerAttack playerattack;
     public trigger trigger;
+    public AttackTrigger attacktrigger;
     
     public int phase = 1;
     public int skill = 0;
@@ -45,6 +47,7 @@ public class Menu : MonoBehaviour
         ActionMenu.SetActive(true);
         Nactionmenu = 1;
         Nattack = 1;
+        attacktrigger.phase = 0;
         ShadowAttack.SetActive(true);
         ShadowBag.SetActive(false);
         ShadowRun.SetActive(false);
@@ -225,7 +228,7 @@ public class Menu : MonoBehaviour
 
     private void MenuEnter()
     {
-        if (Input.GetButtonDown("Attacking"))
+        if (Input.GetButtonDown("Enter"))
         {
             if(Nactionmenu == 1)
             {
@@ -257,7 +260,9 @@ public class Menu : MonoBehaviour
                 }
                 else if(Nrun == 1)
                 {
-                    //Tutup Dawg
+                    string RunButton = "MainMenu";
+
+                    SceneManager.LoadScene(RunButton);
                 }
             }
             else if(Nattackmenu == 1)

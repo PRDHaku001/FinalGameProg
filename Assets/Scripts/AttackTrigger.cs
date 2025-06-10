@@ -9,36 +9,46 @@ public class AttackTrigger : MonoBehaviour
     public Vector2 scalechange, positionchange;
     public bool Critical;
     public bool Attack;
+    public bool Miss;
     public trigger trigger;
     public PlayerAttack PlayerAttack;
+    public Menu menu;
     public GameObject AttackBar;
     public GameObject CriticalBar;
     public GameObject Trigger;
     public int testnumber = 5;
     public int phase = 1;
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        //balik arah
-        if (collision.gameObject.name == "kiri")
-        {
-            trigger.arah = 2;
-        }
-        if (collision.gameObject.name == "kanan")
-        {
-            trigger.arah = 1;
-        }
-    }
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    //balik arah
+    //    if (collision.gameObject.name == "kiri")
+    //    {
+    //        trigger.arah = 2;
+    //    }
+    //    if (collision.gameObject.name == "kanan")
+    //    {
+    //        trigger.arah = 1;
+    //    }
+    //}
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Critical")
+        if(menu.phase == -1)
         {
-            Critical = true;
-        }
-        if (collision.gameObject.name == "Attack" && collision.gameObject.name != "Critical")
-        {
-            Attack = true;
+            if (collision.gameObject.name == "Critical")
+            {
+                Critical = true;
+            }
+            if (collision.gameObject.name == "Attack" && collision.gameObject.name != "Critical")
+            {
+                Attack = true;
+            }
+            if(collision.gameObject.name == "Miss" && collision.gameObject.name != "Attack" && collision.gameObject.name != "Critical")
+            {
+                Miss = true;
+            }
+
         }
     }
 
@@ -74,10 +84,10 @@ public class AttackTrigger : MonoBehaviour
     {
         //changesize
         //AttackBar.transform.localScale = new Vector2(testnumber, 1);
-        if(trigger.jumpnumber == 0)
-        {
-            phase = -1;
-        }
+        //if(trigger.jumpnumber == 0)
+        //{
+        //    phase = -1;
+        //}
 
         if (trigger.arah == 1)
         {
@@ -89,9 +99,6 @@ public class AttackTrigger : MonoBehaviour
             Vector2 target = RightToLeft();
             trigger.platform.position = Vector2.MoveTowards(trigger.platform.position, target, trigger.speed * Time.deltaTime);
         }
-
-
-
     }
 
     Vector2 LeftToRight()
